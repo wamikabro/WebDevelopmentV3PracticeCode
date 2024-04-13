@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoElements</title>
+    <style>
+        .paragraph{
+            color:rgb(97, 97, 0);
+        }
+        .paragraph:hover{ /* Pseudoclass */
+            color: blue;
+        }
+        .paragraph::after{ /* Pseudo element */
+            content: "Hello";
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p class="paragraph">Just like holy mary, mary on a, mary on a.</p>
+    <p class="paragraph">Just like holy mary, mary on a, mary on a.</p>
+</body>
+</html>
