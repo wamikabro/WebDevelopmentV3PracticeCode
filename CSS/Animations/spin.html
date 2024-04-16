@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @keyframes spin {
+          to {
+            transform: rotate(360deg);
+          }
+        }
+        .spin-me {
+          animation: spin 0.7s infinite linear;
+          display: inline-block;
+          font-size: 30px;
+        }
+
+        .spin-me-again{
+            animation: spin 0.3s infinite ease;
+            display: inline-block;
+            font-size: 40px;
+        }
+    </style>
+    <div class="spin-me">🤍</div>
+
+    <div class="spin-me-again">💜</div>
+    <div class="spin-me">🤍</div>   
+</body>
+</html>
