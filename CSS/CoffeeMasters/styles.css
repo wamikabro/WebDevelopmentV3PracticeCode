@@ -54,6 +54,7 @@ body{
 
 .box{
     background-color: #eee1d5;
+    border-radius: 5px;
 }
 
 .name-box{
