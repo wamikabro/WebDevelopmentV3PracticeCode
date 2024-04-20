@@ -24,4 +24,46 @@ body{
 
 .page{
     display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "order order payment payment"
+    ". total total ."
+    "button button button button";
+}
+
+.order{
+    grid-area: order;
+    margin: 0px 30px 0px 0px;
+    height: 400px;
+}
+
+.payment{
+    grid-area: payment;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.total{
+    grid-area: total;
+    height: 100px;
+
+}
+
+.box{
+    background-color: #eee1d5;
+}
+
+.name-box{
+    height: 150px;
+}
+
+.card-box{
+    height: 225px;
+}
+
+.place-order-button{
+    grid-area: button;
 }
