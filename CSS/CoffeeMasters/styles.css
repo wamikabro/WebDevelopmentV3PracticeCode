@@ -68,4 +68,10 @@ body{
 
 .place-order-button{
     grid-area: button;
+    background-color: #DEB993;
+    border: 0px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: medium;
+    
 }
