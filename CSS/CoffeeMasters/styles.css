@@ -82,3 +82,13 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
 }
+
+.items{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.item{
+    border-bottom: 2px solid #DDB892;
+}
