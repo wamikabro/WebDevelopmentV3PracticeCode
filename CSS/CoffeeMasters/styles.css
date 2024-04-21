@@ -48,8 +48,29 @@ body{
 
 .total{
     grid-area: total;
-    height: 100px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
 
+.total-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.total-table td{
+    padding: 10px 0px;
+}
+.total-table td:last-child{
+    padding-left: 400px;
+    text-align: right;
+}
+
+.total-table tr:last-child{
+    font-weight: bold;
 }
 
 .box{
