@@ -123,3 +123,33 @@ body{
     font-size: 14px;
     color: #B08968;
 }
+
+.input-group{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.short-input {
+    max-width: 200px;
+}
+
+.user-input-label{
+    position: absolute;
+    color: #885a2d;
+    background-color: #eee1d5;
+    font-family: sans-serif;
+    left: 25px;
+    top: -5px;
+    padding: 0 2px;
+    font-size: 11px;
+}
+
+.user-input{
+    background-color: transparent;
+    border: 2px #885a2d solid;
+    border-radius: 20px;
+    padding: 8px;
+    width: 90%;
+    text-indent: 18px;
+    font-size: 18px;
+}
