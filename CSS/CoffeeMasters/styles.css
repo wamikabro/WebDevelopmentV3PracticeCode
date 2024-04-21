@@ -75,3 +75,10 @@ body{
     font-size: medium;
     
 }
+
+.box-title{
+    color: #885a2d;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
