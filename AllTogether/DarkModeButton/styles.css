@@ -1,0 +1,12 @@
+Body{
+    display: flex;
+    justify-content: center;
+}    
+.button{
+    height: 100px;
+    font-size: 50px;
+    margin-top: 500px;
+}
+.dark-mode{
+    background-color: grey;
+}
