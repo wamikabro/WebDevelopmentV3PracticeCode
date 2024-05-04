@@ -64,3 +64,10 @@ myFunc();
 })();
 
 
+// one time variables using iife function
+(() => {
+    let firstName;
+    let lastName;
+})
+// now the varibles created above are already removed 
+// it saves the space and global names from unnecessary variable names.
